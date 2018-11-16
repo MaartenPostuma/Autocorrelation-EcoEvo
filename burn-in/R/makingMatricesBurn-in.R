@@ -24,7 +24,7 @@ for(i in 1:length(mats)){                             #Make life histories in ne
 
 
 for(i in 1:length(mat2)){ 
-  write(paste(mat2.1[i]),paste("/Nemo/Matrices",i,sep=""))}
+  write(paste(mat2.1[i]),paste("/Nemo/Matrices/mat",i,sep=""))}
 
 
   #Making lifeHistory metrics #########################

@@ -26,7 +26,7 @@ mat2.1<-rep(mat2,each=45) #repeat depending on parameter combinations:
                           #9 different autocorrelation
                           #5 different plasticity/levels = 45 replicates (6750 matrice files in total)
 for(i in 1:length(mat2.1)){ #write the matrix files
-  write(paste(mat2.1[i]),paste("/Nemo/Matrices",i,sep=""))}
+  write(paste(mat2.1[i]),paste("/Nemo/Matrices/mat",i,sep=""))}
 
 
   #Making lifeHistory metrics #########################
